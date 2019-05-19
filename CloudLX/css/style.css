@@ -1,0 +1,50 @@
+html, body{
+    width:auto;
+	height:auto;
+	margin:0;
+	font-family:Arial;
+}
+
+body{
+	background-color:rgba(0,0,0,0.1);
+}
+
+p{
+	font-size:18px;
+	max-width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:rgba(255,255,255,0.5);
+	min-height:200px;
+	border-radius:10px;
+	padding:5px;
+}
+
+#wrapper{
+	max-width:1400px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgba(0,0,230,0.3);
+	min-height:400px;
+	border-radius:10px;
+}
+
+h1{
+	margin:20px;
+	padding:20px 0px;
+}
+
+
+button{
+	background-color:rgba(255,255,255,0.5);
+	border:0;
+	cursor:pointer;
+	font-size:20px;
+	border-radius:5px;
+	padding:10px;
+	transition-duration:0.3s;
+}
+
+button:hover{
+	background-color:white;
+}
